@@ -1,0 +1,26 @@
+SOURCE CODE
+
+#include<iostream>
+using namespace std;
+int main()
+{
+    int i,j,k;
+    for(i=0;i<5;i++)
+    {
+        for(j=i;j<5;j++)
+        {
+            cout<<5-j;
+        }
+        cout<<endl;
+    }
+    return 0;
+}
+
+
+OUTPUT
+
+54321
+4321
+321
+21
+1
